@@ -1,0 +1,41 @@
+.bckpanel{
+	background: #000000;
+	text-align:center;
+	color: #EDF6EE;
+}
+/*
+	Front
+*/
+#menu {
+	margin: -20px auto 10px auto;
+	background: rgba(24,24,24,.1);
+
+}
+
+#menu > li > a{
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	padding: 20px 30px;
+	-moz-transition:background .6s, color .3s;
+	-webkit-transition:background .6s, color .3s;
+	-o-transition:background .6s, color .3s;
+	transition:background .6s, color .3s;
+	border-right: 1px solid #FF4848;
+	font-weight: bolder;
+}
+#menu > li:last-child > a {
+	border-right: none;	
+}
+#menu > li.active > a{
+	background: #FF4848;
+}
+#menu > li > a:hover {
+	background: #FF4242;
+	color: #fff;
+}
+
+/*
+	Admin
+*/
