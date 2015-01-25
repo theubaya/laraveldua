@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Zizaco\Confide\ServiceProvider',
+		'AdamWathan\BootForms\BootFormsServiceProvider',
 
 
 	),
@@ -193,6 +194,7 @@ return array(
 		'View'              => 'Illuminate\Support\Facades\View',
 
 		'Confide' => 'Zizaco\Confide\Facade',
+		'BootForm' => 'AdamWathan\BootForms\Facades\BootForm',
 
 
 	),
